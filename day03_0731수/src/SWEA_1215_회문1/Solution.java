@@ -1,4 +1,4 @@
-package SWEA_1209_Sum;
+package SWEA_1215_회문1;
 
 public class Solution {
 

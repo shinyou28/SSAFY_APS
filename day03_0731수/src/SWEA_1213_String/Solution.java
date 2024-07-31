@@ -1,4 +1,4 @@
-package SWEA_1209_Sum;
+package SWEA_1213_String;
 
 public class Solution {
 
