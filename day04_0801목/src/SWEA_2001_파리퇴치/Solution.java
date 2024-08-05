@@ -35,7 +35,6 @@ public class Solution {
                     }
                 }
             }
-            // 결과 출력
             System.out.println("#" + tc + " " + max);
         }
 
