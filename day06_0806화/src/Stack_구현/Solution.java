@@ -48,6 +48,8 @@ public class Solution<T> {
     public int size() {
         return stack.size();
     }
+    
+    
 
 }
 
