@@ -8,7 +8,7 @@ public class Solution {
         int T = sc.nextInt(); // 테스트 케이스의 수
         
         for (int tc = 1; tc <= T; tc++) {
-            int N = sc.nextInt(); // N개의 정수가 주어진다.
+            int N = sc.nextInt(); // N개의 정수
             int[] arr = new int[N];
             
             for (int i = 0; i < N; i++) {
@@ -22,9 +22,9 @@ public class Solution {
                 
                     int num = arr[i] * arr[j];
                     
-                    if (isIncreasing(num)) { // 단조 증가하는 수인지 체크
+                    if (isIncreasing(num)) { // 단조 증가하는 수라면
                         if (num > maxNum) {
-                            maxNum = num; // 더 큰 단조 증가 수가 있으면 업데이트
+                            maxNum = num; // 더 큰 단조 증가 수가 있으면 maxNum에 저장
                         }
                     }
                 }
@@ -36,15 +36,15 @@ public class Solution {
     
     // 숫자가 단조 증가하는지 확인하는 함수
     public static boolean isIncreasing(int num) {
-        int lastDigit = num % 10;
+        int lastNum = num % 10;
         num /= 10;
         
         while (num > 0) {
-            int currentDigit = num % 10;
-            if (currentDigit > lastDigit) {
+            int currentNum = num % 10;
+            if (currentNum > lastNum) {
                 return false; // 단조 증가가 아닌 경우
             }
-            lastDigit = currentDigit;
+            lastNum = currentNum;
             num /= 10;
         }
         
