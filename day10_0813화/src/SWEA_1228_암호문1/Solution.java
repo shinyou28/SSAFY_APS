@@ -29,13 +29,12 @@ public class Solution {
         	   }
         	   arr.addAll(x, toInsert);
            }
+           
            System.out.print("#" + tc + " ");
            for(int i = 0; i < 10; i++) {
         	   System.out.print(arr.get(i) + " ");
            }
-           System.out.println();
-           
-           
+           System.out.println();         
            
         }
         
