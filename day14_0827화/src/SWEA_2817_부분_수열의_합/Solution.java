@@ -8,7 +8,6 @@ public class Solution {
 	static int[] A; // 주어진 숫자 배열
 	static int count; // 유효한 조합의 개수
 	
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();

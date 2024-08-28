@@ -1,5 +1,9 @@
 package SWEA_4012_요리사;
 
-public class Solution {
+import java.util.Scanner;
 
+public class Solution {
+    public static void main(String[] args) {
+      
+    }
 }
