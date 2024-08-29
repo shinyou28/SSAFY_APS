@@ -1,10 +1,6 @@
 package 병합_정렬_구현;
 
 import java.util.Arrays;
-// 저는 바보입니다. 
-// 하지만 생일입니다,
-// 그렇다면 저는 생일인 바보입니다.
-// 오늘은 생일이니까 과제하지 않겠습니다.
 public class Solution {
 	static int[] arr = {7, 5, 13, 2, 79, 12, 35, 42};
 	static int N = arr.length;
