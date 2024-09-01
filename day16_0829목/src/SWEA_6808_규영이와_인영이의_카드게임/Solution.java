@@ -37,10 +37,8 @@ public class Solution {
             isUsed = new boolean[9];  // 인영이의 카드 사용 여부를 체크
             calculateGame(0, new int[9]);  // 백트래킹을 통해 인영이의 카드 순열 생성 및 게임 결과 계산
 
-            // 결과 출력
             System.out.println("#" + tc + " " + gyuWinCount + " " + inWinCount);
         }
-        sc.close();  // Scanner 객체 닫기
     }
 
     static void calculateGame(int depth, int[] inCardPerm) {
